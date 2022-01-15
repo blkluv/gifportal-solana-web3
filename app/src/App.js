@@ -152,7 +152,7 @@ const App = () => {
               onChange={onInputChange}
             />
             <button type="submit" className="cta-button submit-gif-button">
-              Submit
+              SUBMIT
             </button>
           </form>
           <div className="gif-grid">

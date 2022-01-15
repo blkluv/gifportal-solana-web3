@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0",
+  "version": "0.1.0",
   "name": "myepicproject",
   "instructions": [
     {
@@ -174,12 +174,9 @@
   ],
   "errors": [
     {
-      "code": 300,
+      "code": 6000,
       "name": "GifIndexOutOfBounds",
       "msg": "No GIF at this index"
     }
-  ],
-  "metadata": {
-    "address": "BPHVCgjXf5cvyurW2EPJH46cZKxqJvYBi4fi8b1RBByz"
-  }
+  ]
 }
