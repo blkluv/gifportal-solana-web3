@@ -7,7 +7,7 @@ import idl from "./idl.json";
 import kp from "./keypair.json";
 
 // Constants
-const TWITTER_HANDLE = "anshul_go87";
+const TWITTER_HANDLE = "luvnft";
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 // SystemProgram is a reference to the Solana runtime!
