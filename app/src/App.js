@@ -22,7 +22,7 @@ const baseAccount = web3.Keypair.fromSecretKey(secret);
 const programID = new PublicKey(idl.metadata.address);
 
 // Set our network to devent.
-const cluster = "devnet";
+const cluster = "mainnet";
 const network = clusterApiUrl(cluster);
 
 // Control's how we want to acknowledge when a trasnaction is "done".
@@ -167,7 +167,7 @@ const App = () => {
                     +
                   </button>
                   <span className="vote-counter">
-                    {item.votes.toString()} votes
+                    {item.votes.toString()} LUVS
                   </span>
                   <button
                     className="vote-button vote-down-button"
